@@ -1,0 +1,80 @@
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.question{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.quest1 h1{
+    color: #F6F509;
+    padding-top: 2rem;
+    text-align: left;
+}
+
+.quest{
+    margin-top: 15rem;
+    color: #F6F509;
+    padding-bottom: 2rem;
+}
+
+.prompt, .time, .problem, .position{
+    margin-top: 5rem;
+}
+
+.question, .pain, .work-t, .position-t, .state-t{
+    background-color: black;
+    text-align: center;
+}
+
+.painful h1{
+    margin-left: 4rem;
+}
+
+.painful h1, .work-t h1{
+    color: #F6F509;
+    padding: 2rem;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.position-t h1, .state-t h2{
+    color: #F6F509;
+    padding: 2rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.position-t h3{
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.intro, .hmw{
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.feat1-img1,.feat1-img2, .feat1-img3, .feat1-img4, .feat2-img1, .feat2-img2, .feat3-img1, .feat4-img1{
+    margin-top: 2rem;
+}
+
+@media (min-width:768px) {
+
+}

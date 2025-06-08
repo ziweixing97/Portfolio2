@@ -1,0 +1,182 @@
+h1{
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 2rem;
+}
+.name{
+    text-align: center;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+nav{
+    background-color: orange;
+    position: sticky;
+    top: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nav{
+    font-size: 1.2rem;
+    color: #033826;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    /* padding: 1.2rem; */
+    /* background-color: orange; */
+}
+
+blockquote{
+    background-color: #FFB138;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.epi-img, .nyt-img{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+}
+
+.epi-img h4, .nyt-img h4{
+    text-align: center;
+}
+
+.lofi1, .lofi2,.lofi3{
+    padding-top: 2rem;
+}
+
+img{
+    margin-top: 1rem;
+}
+
+@media (min-width:1024px) {
+
+    li{
+        font-size: 1.3rem;
+    }
+
+    h2{
+        font-size: 1.7rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    .about, .reason, .user-re, .nyt, .epi, .inter1, .inter2, .inter3, .inter4{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 4rem;
+        
+    }
+    .inter1, .inter3, .inter4{
+        grid-template-rows: 300px;
+    }
+
+    .inter2{
+        grid-template-rows: 350px;
+    }
+
+    .inter-img{
+        grid-column: 1;
+    }
+
+    .say, .does, .think, .feel{
+        grid-column: 2;
+    }
+
+    .intro-a, .reasonwhy, .intro-u{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .process, nav, #research, .say, .competitive, #problem, #hmw, #low-fi, #interview, #feature{
+        margin-top: 4rem;
+    }
+
+    .nav{
+        font-size: 1.6rem;
+    }
+
+    .nyt, .epi{
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .con{
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .epi-img, .nyt-img {
+        padding-top: 0;
+        grid-row: 1/span2;
+    }
+
+   
+
+}
+
+@media (min-width:1440px) {
+
+    h1{
+        font-size: 4rem;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    blockquote{
+        font-size: 2.5rem;
+    }
+
+    p, li{
+        font-size: 2rem;
+    }
+
+    .re-img{
+        margin: 5rem;
+    }
+
+    .inter1, .inter2, .inter3, .inter4{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        
+    }
+
+    .about, .reason, .process, .competitive, .says, #problem, #hmw, #low-fi, #interview, #feature, .nyt, .epi, .inter1, .inter2, .inter3, .inter4{
+        margin-top: 8rem;
+    }
+
+    .say, .does{
+        grid-column: 1;
+        margin-top: 0;
+    }
+
+    .inter-img{
+        grid-column: 2;
+        grid-row: 1/span 2;
+    }
+
+    .think, .say{
+        grid-row: 1;
+    }
+
+    .think, .feel{
+        grid-column: 3;
+    }
+
+    .nav{
+        font-size: 2.5rem;
+    }
+
+}

@@ -1,0 +1,153 @@
+body{
+    background-color: #EBEBEB;
+  }
+  
+  
+  img{
+      width: 100%;
+      /* padding-top: 10%; */
+  }
+
+  h3{
+    color: #D71516;
+  }
+
+  .about, .re-question, .interview-q, .ideation{
+    background-color: black;
+    /* background-color: #D71516; */
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+  }
+
+  .ideation aside{
+    color: #D71516;
+  }
+
+  .intro, .q1, .q2, .q3, .insight{
+    border: 2px solid #D71516;
+    padding: 1rem;
+  }
+
+  .intro, .peopele1, .peopele2, .peopele3, .peopele4{
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+
+  .q1, .q2, .q3, .insight{
+    background-color: white;
+    margin-top: 1rem;
+    border-radius: 10px;
+  }
+
+  .timeline, .hmw{
+    background-color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+  }
+
+  .hmw{
+    color: #D71516;
+    font-style: bold;
+  }
+
+  .inter-q1, .inter-q2{
+    background-color:white;
+    /* color: white; */
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+  }
+
+  
+
+@media (min-width:1440px) {
+ 
+
+  h1{
+    font-size: 3rem;
+  }
+
+  h2{
+    font-size: 2.5rem;
+  }
+
+  h3{
+    font-size: 2rem;
+  }
+
+  p, li{
+    font-size: 1.2rem;
+  }
+
+  .about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    padding: 5rem;
+  }
+
+  .intro{
+    grid-column: 1;
+    /* margin: 5rem; */
+    padding: 2rem;
+  }
+
+  .timeline{
+    /* margin: 5rem; */
+    padding: 2rem;
+    margin-left: 2rem;
+    margin-top: 0;
+  }
+  aside{
+    margin: 0;
+  }
+
+  .audit, .re-question, .interview-q, .interview-p, .ideation, .prd{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .audit1, .aim, .insight, .userflow{
+    grid-column: 1;
+    padding: 2rem;
+  }
+
+  .audit2, .map, .wire-img1, .wire-img2, .wire-img3, .high-fi{
+    padding: 2rem;
+  }
+
+  .q1, .q2, .q3, .inter-q1, .inter-q2, .peopele1, .peopele2, .peopele3, .peopele4{
+    padding: 2rem;
+    margin: 2rem;
+  }
+
+  .q1, .inter-q1, .peopele1{
+    grid-column: 1;
+    
+  }
+  .q2, .sketch{
+    grid-column: 2;
+    grid-row: 2/span 3;
+  }
+
+  .insight, .hmw, .sketch{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .people-img{
+    padding: 5rem;
+  }
+
+  
+
+
+ 
+
+}
